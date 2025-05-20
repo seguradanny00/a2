@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CruceTV Pantalla Completa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player-container">
+    <div id="player"></div>
+    <img src="logo.png" class="channel-logo" alt="CruceTV Logo" />
+
+    <div class="controls">
+      <button id="playPauseBtn" class="btn">⏯</button>
+      <input id="progressBar" type="range" min="0" max="100" value="0" />
+      <button id="muteBtn" class="btn">🔊</button>
+      <button id="fullscreenBtn" class="btn">🖥️</button>
+    </div>
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
