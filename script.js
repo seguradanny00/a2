@@ -1,4 +1,4 @@
-const playlist = ["hXyRD5vbKpo", "P4CehWgTBFI", "zXHkrwkjQ10"];
+const playlist = ["vek58-6rM68", "P4CehWgTBFI", "zXHkrwkjQ10"];
 let currentVideo = 0;
 let player;
 let isPlaying = true;
